@@ -7,9 +7,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Created by Shan on 26/02/2016.
- */
 public class MarketUtil {
 
     public static BigDecimal getTotalAvailableAmount(List<Market> marketList) {
