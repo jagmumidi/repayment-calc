@@ -28,6 +28,7 @@ public class LoanPaymentCalculator {
             } else if (i == 1 && arg != null && !arg.isEmpty()) {
                 loanAmountRequested = new BigDecimal(arg);
             }
+            i++;
         }
 
         ReadMarket readMarket = new ReadMarket(fileName);
